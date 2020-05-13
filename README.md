@@ -11,7 +11,7 @@ This script will configure a Raspberry Pi to check for the Internet every five m
 
 #### Ubuntu 16.04 LTS +
 ```bash
-cd /root/
+cd /home/pi
 wget --no-cache -O check-internet https://raw.githubusercontent.com/cmptscpeacock/check-internet/master/check-internet.bash && chmod +x check-internet && ./check-internet
 ```
 
