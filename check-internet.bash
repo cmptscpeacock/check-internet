@@ -18,12 +18,12 @@ RESETUNDERLINE='\033[24m'
 ## create directory
 
 sudo mkdir /home/pi/check-internet/
-#cd /home/pi/check-internet/
+#cd /home/pi/check-internet
 
 ## download shell script
 
 wget -O check-internet.sh https://raw.githubusercontent.com/cmptscpeacock/check-internet/master/check-internet.sh
-mv check-internet.sh /home/pi/check-internet/check-internet.sh
+sudo mv check-internet.sh /home/pi/check-internet/check-internet.sh
 
 ## change permissions
 
